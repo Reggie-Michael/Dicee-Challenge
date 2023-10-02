@@ -39,13 +39,13 @@ diceImageAssign(diceRollSecond, diceImage[1]);
 // Declaring winner 
 
 if(diceRollFirst > diceRollSecond){
-     declareHeading.textContent = `${playerName[0].textContent} wins!`;
+     declareHeading.textContent = `🏆 ${playerName[0].textContent} wins!`;
 }else if(diceRollFirst < diceRollSecond){
-     declareHeading.textContent = `${playerName[1].textContent} wins!`;
+     declareHeading.textContent = `🏆 ${playerName[1].textContent} wins!`;
 }else if (diceRollFirst === diceRollSecond) {
-     declareHeading.textContent = "It's a tie!";
+     declareHeading.textContent = "🙌 It's a tie!";
 }else {
-     declareHeading.textContent = "Please Retry!";
+     declareHeading.textContent = "🙀 Please Retry!";
 
 }
 
